@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Roboto Slab', serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jumbotron {
+  background-image: url(https://img.jakpost.net/c/2019/09/26/2019_09_26_80058_1569468462._large.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  height: 500px;
+  
+  
+}
+.jumbotron h1{
+  margin-top: 20%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#jumboHeader{
+  font-size: 2em;
+  color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.thumbnail {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  padding-top: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.display-4{
+  color: black;
+  font-weight: bold;
+  /* font-size: xx-large; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  margin: 20px
 }
